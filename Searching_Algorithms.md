@@ -1,8 +1,19 @@
 ------------Searching Algorithms------------
 
 Objectives
+
 - Describe what a searching algorithm is
 - Implement linear search on arrays
 - Implement binary search on sorted arrays
 - Implement a naive string searching algorithm
 - Implement the KMP string searching algorithm
+
+A searching algorithm looks for a specific value/item (can be in an array, string, dictionary, etc.) and may return the index, or the item itself. If the value/item is not found, it may return -1.
+
+Linear Search
+
+A searching alogrithm that goes through each item in an array (or other iterable), starting from the first index up to the last. (many methods and functions in python are using linear search!)
+
+Time Complexity (linear search)
+
+Looking at the worst case, as the length of input n grows, the time grows roughly in proportion to n. This means if the array is 5000 elements long, then it will have to go through each of the indices until it finds the correct item. Of course, the best case is if the first index is the correct item every time. As a result, the time complexity of the linear search algorithm is O(n), hence the name, linear search!
