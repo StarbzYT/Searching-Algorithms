@@ -16,4 +16,12 @@ A searching alogrithm that goes through each item in an array (or other iterable
 
 Time Complexity (linear search)
 
-Looking at the worst case, as the length of input n grows, the time grows roughly in proportion to n. This means if the array is 5000 elements long, then it will have to go through each of the indices until it finds the correct item. Of course, the best case is if the first index is the correct item every time. As a result, the time complexity of the linear search algorithm is O(n), hence the name, linear search!
+Looking at the worst case (if item is not in array or is the very last index), as the length of input n grows, the time grows roughly in proportion to n. This means if the array is 5000 elements long, then it will have to go through each of the indices until it finds the correct item. Of course, the best case is if the first index is the correct item every time (O(1)). As a result, the time complexity of the linear search algorithm is O(n), hence the name, linear search!
+
+Binary Search
+
+Another searching algorithm that uses the DIVIDE AND CONQUER method.
+
+- Binary Search is a much faster form of search.
+- Rather than eliminating one element at a time, you can eliminate HALF of the remaining elements at a time.
+- Binary search only works on SORTED ARRAYS! (iterables)
