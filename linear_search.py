@@ -1,5 +1,5 @@
 # linear search function; time complexity: O(n)
-
+# return the index at which the val lies
 
 def linear(arr, val):
     i = 0  # track of indices
