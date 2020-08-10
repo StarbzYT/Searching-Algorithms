@@ -29,3 +29,10 @@ Another searching algorithm that uses the DIVIDE AND CONQUER method.
 Time Complexity
 
 The best case would mean that the middle point chosen of the sorted array is the value we are looking for (O(1)). However, the worst case would mean that every time the array size is doubled, we add one extra step (size 32 is 2^5, size 64 becomes 2^6). Therefore, the time complexity of Binary Search (worst or average case) is O(log n)
+
+Naive String Search
+
+A searching algorithm that searches for sub-strings within a string.
+
+Ex. Find "omg" ---> "owmomgzomg" (2 matches)
+Ex. Find "haha" ---> "He said haha out loud!" (1 match)
