@@ -25,3 +25,7 @@ Another searching algorithm that uses the DIVIDE AND CONQUER method.
 - Binary Search is a much faster form of search.
 - Rather than eliminating one element at a time, you can eliminate HALF of the remaining elements at a time.
 - Binary search only works on SORTED ARRAYS! (iterables)
+
+Time Complexity
+
+The best case would mean that the middle point chosen of the sorted array is the value we are looking for (O(1)). However, the worst case would mean that every time the array size is doubled, we add one extra step (size 32 is 2^5, size 64 becomes 2^6). Therefore, the time complexity of Binary Search (worst or average case) is O(log n)

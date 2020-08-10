@@ -10,7 +10,7 @@
 # if you never find the value, return -1
 
 
-def binary(arr, val):
+def binary(arr, val):  # O(log n)
     start = 0  # first index
     end = len(arr) - 1  # at the last index
     middle = (start + end) // 2  # use // to floor result
