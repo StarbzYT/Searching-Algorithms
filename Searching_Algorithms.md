@@ -36,3 +36,5 @@ A searching algorithm that searches for sub-strings within a string.
 
 Ex. Find "omg" ---> "owmomgzomg" (2 matches)
 Ex. Find "haha" ---> "He said haha out loud!" (1 match)
+
+
